@@ -66,9 +66,67 @@
 //  console.log(typeof number)
 
 // 5. Undefiend data Type ......................
-let num;
-console.log(typeof num);
+// let num;
+// console.log(typeof num);
 
-// 6. NaN data Type ...........................
-let reslt = "I am string"/2;
-console.log(reslt)
+// // 6. NaN data Type ...........................
+// let reslt = "I am string"/2;
+// console.log(reslt)
+
+// let x=2;
+// let xx;
+// xx=x++;
+// console.log(xx);
+
+// let yy;
+// yy=++x;
+// console.log(yy)
+
+// let _data="My name is"
+// // console.log(_data[6])
+// let upperCase=_data.toUpperCase();
+// console.log(upperCase)
+
+// let lowerCase=_data.toLowerCase()
+// console.log(lowerCase)
+
+// let firstName="ankit";
+// let LastName="kumar"
+
+// let fullName=firstName+" - "+LastName;
+// console.log(fullName);
+
+// Area of Trangle work
+// const basedValue=prompt("Enter the base of a triangle");
+// const hightValue=prompt("Enter the hight of a triangle");
+
+// //calculate the area
+// const areaValue= (basedValue*hightValue)/2;
+
+// console.log(`The area of the triangle is ${areaValue}`);
+// Area of three side value.......................
+// let side1=parseInt(prompt("Enter side1: "));
+// let side2=parseInt(prompt("Enter side2: "));
+// let side3=parseInt(prompt("Enter side3: "));
+
+// // calculate the semi-perimeter
+// const semiPerimeter=(side1+side2+side3)/2;
+
+// //calculate the area 
+// let areaValue=Math.sqrt(semiPerimeter*(semiPerimeter-side1)*(semiPerimeter-side2)*(semiPerimeter-side3));
+
+// console.log(areaValue);
+
+// JavaScript Swiping two variable
+
+let num1=parseInt(prompt("Enter first number"));
+let num2=parseInt(prompt("Enter second number"));
+
+let temp;
+
+temp=num1;
+num1=num2;
+num2=temp;
+
+console.log(`The num1 value of after swaping: ${num1}`)
+console.log(`The num2 value of after swaping: ${num2}`)
