@@ -140,14 +140,17 @@
 // console.log(`The num1 value of after swaping: ${num1}`)
 // console.log(`The num2 value of after swaping: ${num2}`)
 
-let num1=parseInt(prompt("Enter first number"));
-let num2=parseInt(prompt("Enter second number"));
+// let num1=parseInt(prompt("Enter first number"));
+// let num2=parseInt(prompt("Enter second number"));
 
 
-num1=num1+num2;
-num2=num1-num2;
-num1=num1-num2;
+// num1=num1+num2;
+// num2=num1-num2;
+// num1=num1-num2;
 
 
-console.log(`The num1 value of after swaping: ${num1}`)
-console.log(`The num2 value of after swaping: ${num2}`)
+// console.log(`The num1 value of after swaping: ${num1}`)
+// console.log(`The num2 value of after swaping: ${num2}`)
+
+let n1=4;
+let n2=5;
