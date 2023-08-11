@@ -119,14 +119,35 @@
 
 // JavaScript Swiping two variable
 
+// let num1=parseInt(prompt("Enter first number"));
+// let num2=parseInt(prompt("Enter second number"));
+
+// let temp;
+
+// temp=num1;
+// num1=num2;
+// num2=temp;
+
+// console.log(`The num1 value of after swaping: ${num1}`)
+// console.log(`The num2 value of after swaping: ${num2}`)
+
+//Destructring method to swip two variable
+// let num1=parseInt(prompt("Enter first number"));
+// let num2=parseInt(prompt("Enter second number"));
+
+// [num1,num2]=[num2,num1]
+
+// console.log(`The num1 value of after swaping: ${num1}`)
+// console.log(`The num2 value of after swaping: ${num2}`)
+
 let num1=parseInt(prompt("Enter first number"));
 let num2=parseInt(prompt("Enter second number"));
 
-let temp;
 
-temp=num1;
-num1=num2;
-num2=temp;
+num1=num1+num2;
+num2=num1-num2;
+num1=num1-num2;
+
 
 console.log(`The num1 value of after swaping: ${num1}`)
 console.log(`The num2 value of after swaping: ${num2}`)
