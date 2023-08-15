@@ -43,15 +43,15 @@
 // }
 
 // Number Comparison
-let num1=7;
-let num2=9;
+// let num1=7;
+// let num2=9;
 
-if(num1<num2){
-    document.write(`num2 is big ${num2}`)
-}
-else if(num1>num2){
-    document.write(`num1 is big ${num1}`)
-}
-else{
-    document.write(`this variable is equal ${num1=num2}`)
-}
+// if(num1<num2){
+//     document.write(`num2 is big ${num2}`)
+// }
+// else if(num1>num2){
+//     document.write(`num1 is big ${num1}`)
+// }
+// else{
+//     document.write(`this variable is equal ${num1=num2}`)
+// }

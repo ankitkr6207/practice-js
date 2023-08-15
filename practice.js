@@ -152,5 +152,54 @@
 // console.log(`The num1 value of after swaping: ${num1}`)
 // console.log(`The num2 value of after swaping: ${num2}`)
 
-let n1=4;
-let n2=5;
+// let n1=4;
+// let n2=5;
+
+// let number = "ankit kumar";
+// if(isNaN(number)){
+//     document.write(`${number} is not a number`)
+// }
+// else{
+//     document.write(`${number} is a valid number`)
+// }
+
+// let number=parseFloat(prompt("Enter any postive, Nagitive and zero Number"));
+
+// if(number>=1){
+//     document.write("This is Positive Number");
+// }
+// else if(number==0){
+//     document.write("This number is zero");
+// }
+// else{
+//     document.write("This is negitive Number")
+// }
+
+
+
+// let sum = function(x){
+//     return x ? "This is postive number" : "This is negitive number";
+// }
+
+// document.write(sum(x=0))
+
+// console.log("Write a progarm")
+
+
+// let arr={
+//     name:"ankit",
+//     age:22,
+//     city:"purnea",
+//     state:"bihar"
+// };
+ 
+// for (let x of arr){
+//     console.log(arr[x]);
+// }
+
+let arr=[1,2,3,4];
+for (let i in arr){
+    let value=arr[i];
+
+    console.log(value)
+}
